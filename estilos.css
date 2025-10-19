@@ -1,0 +1,237 @@
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  margin: 0;
+
+}
+.encabezado{
+  background-image: url(/imagenes/Fondo\ header.jpg);
+  background-position: center 20%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 10px black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  color: #8f0000; 
+  text-shadow: 0 0 10px #000000;
+  font-family: 'MrRobot', sans-serif;
+  font-size: 55px;                                              
+}
+
+.menu ul{
+  background-color: rgba(0,0,0,0.15);
+  display: flex;              
+  justify-content: center;   
+  gap: 7px;                  
+  list-style: none;          
+  padding: 0;                 
+  margin: 0;            
+}
+
+.menu a{
+  background-color:  rgba(0,0,0,0.15);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: #8c8273;
+  color: white;
+  padding: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  justify-content: center;
+  gap: 20px;           
+}
+
+.menu a:hover { 
+    background: #f1f5f9; 
+}
+
+.menu a.activo { 
+    font-weight: 600; 
+    background: #f1f5f9; 
+}
+
+.contenedor { 
+    max-width: 960px; 
+    margin: 1.25rem auto; 
+    padding: 0 1rem; 
+}
+.iframe-wrap { 
+    position: relative; 
+    padding-top: 56.25%; /* 16:9 */ 
+}
+.iframe-wrap iframe {
+  position: absolute; 
+  inset: 0; 
+  width: 100%; 
+  height: 100%; 
+  border: 0;
+}
+
+ol { 
+    padding-left: 1.25rem; 
+}
+ul { 
+    padding-left: 1.25rem; 
+}
+a { 
+    color: #2563eb; 
+}
+a:hover { 
+    text-decoration: underline;
+}
+
+
+.helo{
+  color: #b60101;
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-size: 45px;
+}
+
+.fotitos{
+  color: #b60101;
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-size: 45px;
+}
+
+section {
+  margin-bottom: 60px; 
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bleach_trama {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.synopsis-contenedor {
+  max-width: 1000px;
+  background: rgba(0,0,0,0.15);
+  border: 2px dotted rgba(255,255,255,0.12);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  text-align: center;
+
+}
+
+.synopsis-text {
+  
+  color: #e0e0e0;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 8px 0 0;
+}
+
+.synopsis-text strong {
+  color: #ff3131;
+  text-shadow: 0 0 6px rgba(255,128,128,0.08);
+}
+
+.galeria{
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 40px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 10px; 
+  padding: 20px;
+  position: relative;
+  width: 1300px;
+  font-size: 30px;
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.grid{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+  flex-wrap: wrap;
+  gap: 40px
+}
+
+.grid img{
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.tarjeta {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.tarjeta h2 {
+  font-size: 35px;
+  margin: 10px 0 5px;
+  color: #ff3131;
+  font-family: "Mr Robot", sans-serif;
+}
+
+.tarjeta p {
+  margin: 0;
+  color: #f5f5f5;
+  font-size: 0.9rem;
+}
+
+.parte_de_arriba {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.parte_de_abajo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.parte_de_abajo .tarjeta{
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.parte_de_abajo .tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+
+                
