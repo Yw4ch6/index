@@ -10,7 +10,7 @@ body {
 
 }
 .encabezado{
-  background-image: url(/imagenes/Fondo\ header.jpg);
+  background-image: url(header.jpg);
   background-position: center 20%;
   height: 50vh;
   background-repeat: no-repeat;
@@ -235,3 +235,4 @@ section {
 
 
                 
+
